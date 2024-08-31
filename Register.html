@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Thrive</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <div class="container">
+        <img src="images/logo.jpeg" alt="Header Image" class="header-image">
+        <h1>Welcome To Thrive</h1>
+        
+        
+        <!-- Buttons for User and Professional Registration -->
+        <div class="button-group">
+            <button class="register-button" onclick="goToUserRegistration()">Register as User</button>
+            <button class="register-button" onclick="goToProfessionalRegistration()">Register as Professional</button>
+        </div>
+      
+        
+      
+    
+
+    <script>
+        // Function to redirect to the user registration page
+        function goToUserRegistration() {
+            window.location.href = 'user-registration.html'; // replace with actual path
+        }
+
+        // Function to redirect to the professional registration page
+        function goToProfessionalRegistration() {
+            window.location.href = 'ProfessionalRegistration.html'; // replace with actual path
+        }
+
+        // Function for generic register button
+        function register() {
+            // Redirect to a general registration page or handle differently
+            window.location.href = 'RegisterPage.html';
+        }
+    </script>
+</body>
+</html>
