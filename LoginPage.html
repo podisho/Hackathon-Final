@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Thrive</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="script.js">
+    <link rel="stylesheet" href="RegisterPage.html">
+    <link rel="stylesheet" href="ProfessionalRegistration.html">
+</head>
+<body>
+    <div class="container">
+        <img src="images/logo.jpeg" alt="Header Image" class="header-image">
+        <h1>Welcome To Thrive</h1>
+        <form class="login-form">
+            <label for="email">Login:</label>
+            <div class="input-group">
+                <span class="icon">📧</span>
+                <input type="email" id="email" placeholder="Email">
+            </div>
+            <div class="input-group">
+                <span class="icon">🔒</span>
+                <input type="password" id="password" placeholder="Password">
+            </div>
+            <a href="#" class="forgot-password">forgot password</a>
+            <button type="submit" class="login-button"> <a href="UserPage.html" class="login-link">Login</a></button>
+        </form>
+        <p class="register-text">don’t have an account yet? <a href="RegisterPage.html" class="register-link">Register</a></p>
+    </div>
+
+
+    <script>
+        // Function to handle the register button click
+        function register() {
+            // Redirect to the registration page
+            window.location.href = 'register.html'; // replace 'register.html' with the actual path of your registration page
+        }
+    </script>
+
+</body>
+</html>
