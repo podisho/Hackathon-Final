@@ -10,8 +10,9 @@ body {
 
 .container {
     text-align: center;
-    width: 80%;
+    width: 100%;
     max-width: 400px;
+  
 }
 
 .header-image {
@@ -92,21 +93,6 @@ input[type="email"], input[type="password"] {
     text-decoration: underline;
 }
 
-body {
-    font-family: Arial, sans-serif;
-    background-color: #fff;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-}
-
-.container {
-    text-align: center;
-    width: 80%;
-    max-width: 400px;
-}
 
 .header-image {
     width: 100%;
